@@ -17,7 +17,7 @@
     
 }
 
-.first__Div{
+.primer_Div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,3 +26,33 @@
     border-radius: 10px;
 }
 
+.first__DivText{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.tenX_span{
+    color: var(--Yellow500);
+}
+
+.segundo_Div{
+    border: 0.5px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.tercer_Div{
+    background-color: var(--Yellow500);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.tercer_Div_img{
+    
+}
