@@ -70,3 +70,30 @@
     font-weight: 500;
     line-height: 1.2;
 }
+
+.sexto_Div{
+    border: 0.5px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.sexto_Div__text{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.septimo_Div{
+    background-color: var(--Yellow100);
+    border: none;
+    border-radius: 10px;
+}
+
+.septimo_Div__span{
+    color: var(--Purple500);
+    font-style: italic;
+}
+
+.octavo_Div{
+    background-color: var(--Yellow500);
+    border-radius: 10px;
+    border: none;
+}
