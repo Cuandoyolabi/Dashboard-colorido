@@ -55,4 +55,18 @@
 
 .cuarto_Div{
     background-color: var(--Purple100);
+    border-radius: 10px;
+    border: none;
+}
+
+.quinto_Div{
+    background-color: var(--Purple500);
+    border-radius: 10px;
+    border: none;
+}
+
+.quinto_Div__text{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
 }
