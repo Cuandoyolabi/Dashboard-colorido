@@ -17,13 +17,6 @@
     
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 300px);
-    gap: 10px;
-}
-
 .primer_Div{
     display: flex;
     flex-direction: column;
@@ -106,4 +99,53 @@
     background-color: var(--Yellow500);
     border-radius: 10px;
     border: none;
+}
+
+@media (min-width: 768px) {
+    .bento__grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        border: 10px solid black;
+    }
+
+    .primer_Div {
+        grid-row: span 3;
+        grid-column: span 2;
+    }
+
+    .segundo_Div {
+        grid-row: span 2;
+        grid-column: span 1;
+    }
+
+    .tercer_Div {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .cuarto_Div {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+    .quinto_Div {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+    .sexto_Div {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .septimo_Div {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .octavo_Div {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
 }
