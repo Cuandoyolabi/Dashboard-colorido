@@ -17,6 +17,21 @@
     
 }
 
+.letraPequeña{
+    font-size: 20px;
+}
+
+.letraMediana{
+    font-size: 25px;
+}
+
+.letraGrande{
+    font-size: 45px;
+}
+
+
+ /* Contenedores */
+ 
 .primer_Div{
     display: flex;
     flex-direction: column;
@@ -26,12 +41,6 @@
     border-radius: 10px;
     grid-row: 2 / 3;
     grid-column: 3  / 6;    
-}
-
-.first__DivText{
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 1;
 }
 
 .tenX_span{
@@ -101,51 +110,98 @@
     border: none;
 }
 
+
+
+
+
 @media (min-width: 768px) {
     .bento__grid {
+        width: 100%;
+        height: 100vh;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 35% 15% 15% 35%;
         border: 10px solid black;
+        gap: 0px;
+    }
+
+    .letraMuyPequeña{
+        font-size: 17px;
+    }
+
+    .letraPequeña{
+        font-size: 25px;
+    }
+
+    .letraMediana{
+        font-size: 30px;
+    }
+
+    .letraGrande{
+        font-size: 30px;
+    }
+
+    .card{
+        margin: 0;
     }
 
     .primer_Div {
-        grid-row: span 3;
-        grid-column: span 2;
+        grid-row: 1 / 1;
+        grid-column: 4  /  8;
+    }
+
+    .first__DivText{
+        font-size: 30px;
     }
 
     .segundo_Div {
-        grid-row: span 2;
-        grid-column: span 1;
+        grid-row: 2 / 4;
+        grid-column: 4 / 6;
+
     }
 
     .tercer_Div {
-        grid-row: span 1;
-        grid-column: span 1;
+        grid-row: 2 / 4;
+        grid-column: 6 / 8;
     }
 
     .cuarto_Div {
-        grid-row: span 2;
-        grid-column: span 2;
+        grid-row: 1 / 4;
+        grid-column: 8 / 10;
     }
 
     .quinto_Div {
-        grid-row: span 2;
-        grid-column: span 2;
+        grid-row: 4 / 5;
+        grid-column: 6 / 10;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .quinto_Div__img{
+        width: 45%;
     }
 
     .sexto_Div {
-        grid-row: span 1;
-        grid-column: span 1;
+        grid-row: 4 /  5;
+        grid-column: 4 / 6;
     }
 
     .septimo_Div {
-        grid-row: span 1;
-        grid-column: span 1;
+        grid-row:  1 / 3;
+        grid-column:  2 / 4;
     }
 
     .octavo_Div {
-        grid-row: span 1;
-        grid-column: span 1;
+        grid-row: 3 / 5;
+        grid-column:  2 / 4;
+        
+    }
+
+    /* Saltos de linea */
+    .br-mobile{
+        display: none;
     }
 }
