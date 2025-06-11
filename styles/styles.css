@@ -118,10 +118,6 @@
     border: none;
 }
 
-
-
-
-
 @media (min-width: 768px) {
     .bento__grid {
         width: 100%;
@@ -152,8 +148,9 @@
     }
 
     .primerDiv {
+        width: 96%;
         grid-row: 1 / 1;
-        grid-column: 4  /  8;
+        grid-column: 4  /  span 4;
     }
     .primerDivBr1{
         display: none;
@@ -177,6 +174,7 @@
     }
 
     .tercer_Div {
+        height: 90%;
         grid-row: 2 / 4;
         grid-column: 6 / 8;
         overflow: hidden;
@@ -193,6 +191,7 @@
     }
 
     .quinto_Div {
+        width: 97%;
         grid-row: 4 / 5;
         grid-column: 6 / 10;
         display: flex;
