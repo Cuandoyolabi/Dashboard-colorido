@@ -129,8 +129,6 @@
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: 35% 15% 15% 35%;
-        border: 10px solid black;
-        gap: 0px;
     }
 
     .letraMuyPequeña{
